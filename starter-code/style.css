@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+:root{
+    --dark-gray-background:#121725;
+    --lighter-gray:#2C344B;
+    --green:#54E6AF;
+    --blue-gray:#5A668A;
+    --light:#C2CBE5;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-size:2.7vh ;
+    line-height:4.2vh ;
+    font-family: 'Chivo', sans-serif;
+    background-color: var(--dark-gray-background);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+h1{
+    font-size: 2.8vw;
+    line-height:7.3vh ;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+ .main{
+    width: 90%;
+    height: 90%;          
+    background-color: aqua;
+    position: relative;
+        }
+.box-image {
+    height: 100%;
+    width: 80%;
+    background-color: brown;
+    float: right;
+    text-align: right;
+           
+        }
+.box-image img{
+    height: 100%;
+        }
+
+.publish_conteiner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 52%;
+    height: 75%;
+    min-width: 500px;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    /* margin: 0; */
+    
+}
+.publish_conteiner item {
+    margin: 0;
+}
+
+
+
+.title span:nth-of-type(1) {
+    color: var(--green);
+   
+}
+.title span:nth-of-type(2) {
+    color: #fff;
+}
+.publish_conteiner p:first-of-type{
+    width: 28vw;
+    padding: 3vh 0;
+    margin: 0;
+    font-size: 1.2vw;
+    line-height: 2.8vh;
+    color: #fff;
+}
+
+.email {
+    width: 100%;
+    height: 6vh;
+    border: 1px solid white;
+    width: 28vw;
+    background-color: var(--lighter-gray);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+     
+   
+
+}
+.input {
+    height: 100%;
+    width: 6vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    background-color: var(--lighter-gray);
+    color: #fff;
+
+}
+button {
+    display: inline-block;
+    width: 13vw;
+    height: 90%;
+    background-color: var(--green);
+    border-radius: 3vh;
+     position: relative;
+     left: 4vw;
+     padding: 0;
+    
+}
+
+.icons {
+   height: 5vh;
+   width: 35vw;
+   border: 1px solid white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.icons img {
+ height: 2.4vh;
+}
+
+
+
+
+
+
+
+
+
