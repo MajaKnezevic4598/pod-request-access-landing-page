@@ -288,7 +288,7 @@ button{
 
 @media screen and (max-width:480px){
     body{
-        height: 100vh;
+        height: 150vh;
         width: 100vw;
         overflow: hidden;
     }
@@ -304,7 +304,7 @@ button{
         left: 0;
         right: 0;
         width: 100%;
-        height: 100%;
+        height: 120vh;
         align-items: center;
         justify-content: center;
         background-color: var(--dark-gray-background); 
@@ -316,57 +316,73 @@ button{
         text-align: center;
         margin: 0;
         order: 1;
-        margin-top: 15vh;
-        font-size:3.2vh;
-        line-height: 6vh;
+        margin-top: 30vh;
+        font-size:5.5vh;
+        line-height: 7.2vh;
     }
     .logo {
         top:10vh;
         left:38vw;
         z-index: 20;
+        height: 8vh;
     }
     .publish_conteiner p:first-of-type{
         width: 80%;
-        line-height: 3vh;
+        font-size: 2.5vh;
+        line-height: 4vh;
         padding: 4.5vh 0;
         order: 2;
         text-align: center;
+        font-weight: 200;
       
     }
     .email {
         width: 90%;
-        height: 120px;
+        height: auto;
         flex-direction: column;
         background-color:transparent;
         order:4 ;
         margin-top:8vh;
+        margin-bottom: 20vh;
+      
        
       
     }
     .input {
         width: 300px;
-        height: 12vh;
+        height: 8vh;
         border-radius: 25px;
         margin-bottom: 4vh;
         text-align: left;
         padding-left:2vw;
+        opacity: 100%;
+        font-size: 2vh;
+       
        
     }
     button{
         width: 300px;
-         height: 12vh;
+         height: 8vh;
         border-radius: 25px;
         position: relative;
         left:0vw;
         font-weight: bold;
-        font-size: 1.5vh;
+        font-size: 2vh;
+        opacity: 100%;
+        font-weight: 900;
+        margin-bottom: 8vh;
+        
        
     }
 
     .icons {
+        height:5vh;
         order: 3;
          width: auto;
         justify-self: center;
+    }
+    .icons img {
+        height: 5vh;
     }
     .reg-checkout{
         order: 5;
@@ -374,13 +390,15 @@ button{
     }
     .reg-checkout-valid{
         position: absolute;
-        bottom:7vh;
-        font-size: 4vw;
+        flex:none;
+        display: block;
+        margin-top:12px;
+  top:100vh;
+     font-size: 3vw; 
+
 
     }
-    .icons img {
-        height: 2vh;
-    }
+   
 
 
 }
